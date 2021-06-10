@@ -40,6 +40,9 @@ for (let i= this.cards.lenght -1; i >0; i--) ¨{
     }
   }
 
+  resetClickedPair() {
+    this.pickedCards = [];
+  }
  /* checkIfFinished(){
     if(this.cards.length === 24)
     return false
